@@ -17,7 +17,13 @@ dgp # push
 dgpp # pull 
 ```
 
-With this pattern, I highly recommend adding a `.gitignore` at your home folder that [whitelists](https://jasonstitt.com/gitignore-whitelisting-patterns) what you want, so you don't accidently commit your entire home folder.
+With this pattern, I highly recommend adding a `.gitignore` at your home folder that [whitelists](https://jasonstitt.com/gitignore-whitelisting-patterns) what you want, so you don't accidently commit your entire home folder. If you do this, put the following in your `config.fish`:
+
+```
+set -x DOTGIT_PATHS "-A"
+```
+
+Otherwise, you can set `DOTGIT_PATHS` to whichever paths you'd like to add.
 
 ### Editor Helper
 
