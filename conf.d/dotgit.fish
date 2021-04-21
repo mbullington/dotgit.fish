@@ -9,7 +9,7 @@ alias dotgit 'git --git-dir=$HOME/.dotgit/ --work-tree=$HOME'
 abbr dg 'dotgit'
 
 function dga
-  dotgit add -A
+  dotgit add $DOTGIT_PATHS
 end
 
 alias dgp 'dotgit push'
