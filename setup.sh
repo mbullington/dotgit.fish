@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # The MIT License (MIT)
 # 
 # Copyright (c) 2018 Nicola Paolucci
