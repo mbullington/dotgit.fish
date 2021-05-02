@@ -7,7 +7,7 @@ A bootstrap script for this is located at [setup.sh](./setup.sh). It will read y
 If you trust me to run code on your computer, you can do this one-liner (**change my dotfiles URL for yours!**):
 
 ```sh
-curl -Lks http://bit.do/cfg-install | env DOTGIT_URL=git@github.com:mbullington/dotfiles.git /bin/bash
+curl -Lks https://git.io/J3BQJ | env DOTGIT_URL=git@github.com:mbullington/dotfiles.git /bin/bash
 ```
 
 
