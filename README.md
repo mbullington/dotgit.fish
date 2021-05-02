@@ -2,6 +2,15 @@
 
 Small Fish helpers for storing your dotfiles in git. It essentially standardizes the [Atlassian pattern](https://www.atlassian.com/git/tutorials/dotfiles) in your Fish shell. Follow this guide and place your `--git-dir` in the `~/.dotgit` folder.
 
+A helper for this is located at [setup.sh](./setup.sh). It will read your Git remote URL from the `DOTGIT_URL` variable.
+
+If you trust me to run code on your computer, you can do this one-liner (**change my dotfiles URL for yours!**):
+
+```sh
+curl -Lks http://bit.do/cfg-install | env DOTGIT_URL=git@github.com:mbullington/dotfiles.git /bin/bash
+```
+
+
 ## Usage
 
 ```
@@ -40,3 +49,5 @@ Then use `edg` (edit dotgit) to open in your $EDITOR, or alternatively `cdg` to 
 ## License
 
 This work is under the Public Domain. (CC-0)
+
+`setup.sh` is under the MIT License and more info can be found within the file.
