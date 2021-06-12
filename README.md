@@ -18,8 +18,6 @@ fisher add mbullington/dotgit.fish
 ```
 
 ```sh
-dg remote add origin git@github.com:mbullington/dotfiles.git # add your git URL here
-
 dg status
 dga # add -A
 dgp # push
